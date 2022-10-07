@@ -1,0 +1,10 @@
+{
+  "name": "isZero",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hassel Alcalá",
+  "license": "MIT",
+  "dependencies": {
+    "circomlib": "^2.0.5"
+  }
+}
