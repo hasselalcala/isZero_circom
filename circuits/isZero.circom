@@ -16,12 +16,12 @@ template IsZero(){
                            // -in * (inv + 1) - out = 0 (constraint)
     
 
-    in * out === 0; //constraint generation to guaranteee that both signals are equal,
+    in * out === 0; //constraint generation to guarantee that both signals are equal,
                     // ig the signals are not equal, constraint fails 
                     // this generates: 
                     // in * out - 0 = 0
 
-    inv * out === 0; //constraint generation to guaranteee that all signals (in, inv, out) are equal,
+    inv * out === 0; //constraint generation to guarantee that all signals (in, inv, out) are equal,
                      // inv * out - 0 = 0
 }
 
